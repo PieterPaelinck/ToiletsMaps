@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -28,8 +29,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
-        // Called when the scene has moved from an inactive state to an active state.
-        // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
+        var locList = LocationController.getListLocations()
+        let realm = try! Realm()
+        try! realm.write {
+            realm.deleteAll()
+        }
+        if realm.isEmpty {
+            try! realm.write {
+                while !locList.isEmpty {
+                    realm.add(locList.popLast()!)
+                }
+            }
+        }
     }
 
     func sceneWillResignActive(_ scene: UIScene) {

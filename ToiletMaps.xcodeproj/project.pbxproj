@@ -3,27 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A192FACA74E2A5F5081591F /* Pods_ToiletMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B701B23119A70FCA6F48EB6 /* Pods_ToiletMaps.framework */; };
 		C134C91823B613E9004D2593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134C91723B613E9004D2593 /* AppDelegate.swift */; };
 		C134C91A23B613E9004D2593 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134C91923B613E9004D2593 /* SceneDelegate.swift */; };
-		C134C91C23B613E9004D2593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134C91B23B613E9004D2593 /* ViewController.swift */; };
+		C134C91C23B613E9004D2593 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134C91B23B613E9004D2593 /* MapViewController.swift */; };
 		C134C91F23B613E9004D2593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C134C91D23B613E9004D2593 /* Main.storyboard */; };
-		C134C92123B613EF004D2593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C134C92023B613EF004D2593 /* Assets.xcassets */; };
 		C134C92423B613EF004D2593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C134C92223B613EF004D2593 /* LaunchScreen.storyboard */; };
+		C134C92C23B615D9004D2593 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C134C92B23B615D9004D2593 /* Podfile */; };
+		C134C93223B650AB004D2593 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134C93123B650AB004D2593 /* Location.swift */; };
+		C134C93523B658FA004D2593 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134C93423B658FA004D2593 /* LocationController.swift */; };
+		C14C2ED823B7685600EA0575 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14C2ED723B7685600EA0575 /* LocationDetailViewController.swift */; };
+		C14C2EDA23B7C00500EA0575 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14C2ED923B7C00500EA0575 /* Address.swift */; };
+		C1AA96F323D4761500431923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C125DB1C23D3AB3200EE74D6 /* Assets.xcassets */; };
+		C1E7D1A623D1BF0300CB03D9 /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7D1A523D1BF0300CB03D9 /* LocationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A3708149263D9560CF59859 /* Pods-ToiletMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToiletMaps.release.xcconfig"; path = "Target Support Files/Pods-ToiletMaps/Pods-ToiletMaps.release.xcconfig"; sourceTree = "<group>"; };
+		3B701B23119A70FCA6F48EB6 /* Pods_ToiletMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToiletMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3A2DC20D22CB06DB835CB6 /* Pods-ToiletMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToiletMaps.debug.xcconfig"; path = "Target Support Files/Pods-ToiletMaps/Pods-ToiletMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		C125DB1C23D3AB3200EE74D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = /Users/pieterpaelinck/Desktop/PracticeSwift/ToiletMaps/Assets.xcassets; sourceTree = "<absolute>"; };
 		C134C91423B613E9004D2593 /* ToiletMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToiletMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C134C91723B613E9004D2593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C134C91923B613E9004D2593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C134C91B23B613E9004D2593 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C134C91B23B613E9004D2593 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C134C91E23B613E9004D2593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C134C92023B613EF004D2593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C134C92323B613EF004D2593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C134C92523B613EF004D2593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C134C92B23B615D9004D2593 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C134C93123B650AB004D2593 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C134C93423B658FA004D2593 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		C14C2ED723B7685600EA0575 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		C14C2ED923B7C00500EA0575 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		C1E7D19D23CDFAA900CB03D9 /* ToiletMapsRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToiletMapsRelease.entitlements; sourceTree = "<group>"; };
+		C1E7D19E23CE051C00CB03D9 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../Downloads/realm-swift-4.3.0/ios/swift-11.1/RealmSwift.framework"; sourceTree = "<group>"; };
+		C1E7D19F23CE051C00CB03D9 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../Downloads/realm-swift-4.3.0/ios/swift-11.1/Realm.framework"; sourceTree = "<group>"; };
+		C1E7D1A523D1BF0300CB03D9 /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A192FACA74E2A5F5081591F /* Pods_ToiletMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +60,11 @@
 		C134C90B23B613E9004D2593 = {
 			isa = PBXGroup;
 			children = (
+				C134C92B23B615D9004D2593 /* Podfile */,
 				C134C91623B613E9004D2593 /* ToiletMaps */,
 				C134C91523B613E9004D2593 /* Products */,
+				C4D75A002634C30C68210F86 /* Pods */,
+				DC95F50BFA31581BD8EFD343 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,64 @@
 		C134C91623B613E9004D2593 /* ToiletMaps */ = {
 			isa = PBXGroup;
 			children = (
+				C125DB1C23D3AB3200EE74D6 /* Assets.xcassets */,
+				C1E7D19D23CDFAA900CB03D9 /* ToiletMapsRelease.entitlements */,
+				C134C93323B658E7004D2593 /* ModelControllers */,
+				C134C92E23B65083004D2593 /* Models */,
+				C134C92D23B6506B004D2593 /* ViewControllers */,
 				C134C91723B613E9004D2593 /* AppDelegate.swift */,
 				C134C91923B613E9004D2593 /* SceneDelegate.swift */,
-				C134C91B23B613E9004D2593 /* ViewController.swift */,
 				C134C91D23B613E9004D2593 /* Main.storyboard */,
-				C134C92023B613EF004D2593 /* Assets.xcassets */,
 				C134C92223B613EF004D2593 /* LaunchScreen.storyboard */,
 				C134C92523B613EF004D2593 /* Info.plist */,
 			);
 			path = ToiletMaps;
+			sourceTree = "<group>";
+		};
+		C134C92D23B6506B004D2593 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C134C91B23B613E9004D2593 /* MapViewController.swift */,
+				C14C2ED723B7685600EA0575 /* LocationDetailViewController.swift */,
+				C1E7D1A523D1BF0300CB03D9 /* LocationTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C134C92E23B65083004D2593 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C134C93123B650AB004D2593 /* Location.swift */,
+				C14C2ED923B7C00500EA0575 /* Address.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C134C93323B658E7004D2593 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C134C93423B658FA004D2593 /* LocationController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		C4D75A002634C30C68210F86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A2DC20D22CB06DB835CB6 /* Pods-ToiletMaps.debug.xcconfig */,
+				3A3708149263D9560CF59859 /* Pods-ToiletMaps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC95F50BFA31581BD8EFD343 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7D19F23CE051C00CB03D9 /* Realm.framework */,
+				C1E7D19E23CE051C00CB03D9 /* RealmSwift.framework */,
+				3B701B23119A70FCA6F48EB6 /* Pods_ToiletMaps.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C134C92823B613EF004D2593 /* Build configuration list for PBXNativeTarget "ToiletMaps" */;
 			buildPhases = (
+				FA0C93492BA7BC3437130637 /* [CP] Check Pods Manifest.lock */,
 				C134C91023B613E9004D2593 /* Sources */,
 				C134C91123B613E9004D2593 /* Frameworks */,
 				C134C91223B613E9004D2593 /* Resources */,
+				3BE8F4D4DCBB40D37938E6CC /* [CP] Copy Pods Resources */,
+				B4EB5F05B9B613F4D89B388C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +201,86 @@
 			buildActionMask = 2147483647;
 			files = (
 				C134C92423B613EF004D2593 /* LaunchScreen.storyboard in Resources */,
-				C134C92123B613EF004D2593 /* Assets.xcassets in Resources */,
+				C134C92C23B615D9004D2593 /* Podfile in Resources */,
+				C1AA96F323D4761500431923 /* Assets.xcassets in Resources */,
 				C134C91F23B613E9004D2593 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BE8F4D4DCBB40D37938E6CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToiletMaps/Pods-ToiletMaps-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToiletMaps/Pods-ToiletMaps-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToiletMaps/Pods-ToiletMaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4EB5F05B9B613F4D89B388C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToiletMaps/Pods-ToiletMaps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToiletMaps/Pods-ToiletMaps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToiletMaps/Pods-ToiletMaps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0C93492BA7BC3437130637 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToiletMaps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C134C91023B613E9004D2593 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C134C91C23B613E9004D2593 /* ViewController.swift in Sources */,
+				C134C91C23B613E9004D2593 /* MapViewController.swift in Sources */,
 				C134C91823B613E9004D2593 /* AppDelegate.swift in Sources */,
+				C134C93223B650AB004D2593 /* Location.swift in Sources */,
+				C134C93523B658FA004D2593 /* LocationController.swift in Sources */,
+				C1E7D1A623D1BF0300CB03D9 /* LocationTableViewController.swift in Sources */,
+				C14C2ED823B7685600EA0575 /* LocationDetailViewController.swift in Sources */,
 				C134C91A23B613E9004D2593 /* SceneDelegate.swift in Sources */,
+				C14C2EDA23B7C00500EA0575 /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +422,7 @@
 		};
 		C134C92923B613EF004D2593 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3A2DC20D22CB06DB835CB6 /* Pods-ToiletMaps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,8 +441,10 @@
 		};
 		C134C92A23B613EF004D2593 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3708149263D9560CF59859 /* Pods-ToiletMaps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ToiletMaps/ToiletMapsRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3FAHY26JY8;
 				INFOPLIST_FILE = ToiletMaps/Info.plist;
